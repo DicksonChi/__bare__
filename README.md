@@ -16,7 +16,7 @@ This project makes use of these dependencies:
 $ git clone git@github.com:DicksonChi/__bare__.git
 $ cd __bare__
 $ make venv
-$ source venv/bin/activate
+$ source .venv/bin/activate
 ```
 
 ##### TO INSTALL REQUIREMENTS
@@ -25,9 +25,11 @@ $ source venv/bin/activate
 
 ## Running
 
-##### TO RUN BACKEND
+##### TO MIGRATE
 `$ make migrate_task` to migrate task from csv to the database
  
+ 
+ ##### TO RUN
 `$ make run` or to run in the background
 `$ make run_backgound`
 
